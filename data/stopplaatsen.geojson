@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "stopplaatsen",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 12, "Gemeente": "Deinze", "type": "station", "deelgemeen": "Hansbeke", "Adres": "Hansbekedorp z.n.", "Omschrijv": "Station \"Stoussie\" Hansbeke" }, "geometry": { "type": "Point", "coordinates": [ 3.536588763750282, 51.07315590555978 ] } },
+{ "type": "Feature", "properties": { "id": 13, "Gemeente": "Deinze", "type": "station", "deelgemeen": "Landegem", "Adres": "Stationsstraat 94", "Omschrijv": "Station Landegem" }, "geometry": { "type": "Point", "coordinates": [ 3.575832399839038, 51.06476616694259 ] } },
+{ "type": "Feature", "properties": { "id": 8, "Gemeente": "Deinze", "type": "station", "deelgemeen": "Deinze", "Adres": "Statieplein 4", "Omschrijv": "Station Deinze (of was het Petegem?)" }, "geometry": { "type": "Point", "coordinates": [ 3.534787991033215, 50.978399716392886 ] } },
+{ "type": "Feature", "properties": { "id": 14, "Gemeente": "Deinze", "type": "station", "deelgemeen": "Astene", "Adres": "Nazarethsesteenweg //(kruispunt met spoorweg)", "Omschrijv": "Station Astene" }, "geometry": { "type": "Point", "coordinates": [ 3.565441497544068, 50.982927929716062 ] } },
+{ "type": "Feature", "properties": { "id": 10, "Gemeente": "Deinze", "type": "station", "deelgemeen": "Grammene", "Adres": "Oude Stationsstraat 9", "Omschrijv": "Station Grammene" }, "geometry": { "type": "Point", "coordinates": [ 3.472251649455113, 50.979132173095508 ] } },
+{ "type": "Feature", "properties": { "id": 11, "Gemeente": "Deinze", "type": "station", "deelgemeen": "Wontergem", "Adres": "Dentergemstraat //(kruispunt met spoorweg)", "Omschrijv": "Station Wontergem" }, "geometry": { "type": "Point", "coordinates": [ 3.447712865474535, 50.981624801681328 ] } },
+{ "type": "Feature", "properties": { "id": 5, "Gemeente": "Nazareth", "type": "station", "deelgemeen": "Eke-Nazareth", "Adres": "Stationsstraat (Kruising //Roombaardstraat - Ten Edestraat)", "Omschrijv": "Het station Eke-Nazareth" }, "geometry": { "type": "Point", "coordinates": [ 3.627849152607689, 50.960577533064026 ] } },
+{ "type": "Feature", "properties": { "id": 6, "Gemeente": "Nazareth", "type": "seinhuisje", "deelgemeen": "Eke-Nazareth", "Adres": "Oudenaardseheerweg 222", "Omschrijv": "Seinhuisje Oudenaardseheerweg Nazareth" }, "geometry": { "type": "Point", "coordinates": [ 3.630136828256495, 50.969910215389334 ] } },
+{ "type": "Feature", "properties": { "id": 4, "Gemeente": "Gavere", "type": "station", "deelgemeen": "Asper", "Adres": "Prosper Heysestraat 1A", "Omschrijv": "Gaverstatie in Asper" }, "geometry": { "type": "Point", "coordinates": [ 3.639989360976652, 50.929799561103607 ] } },
+{ "type": "Feature", "properties": { "id": 3, "Gemeente": "Gavere", "type": "seinhuisje", "deelgemeen": "Asper", "Adres": "Kruispunt Tempelstraat - //Klonkeveldstraat", "Omschrijv": "Het routehuis en seinhuisje Gavere" }, "geometry": { "type": "Point", "coordinates": [ 3.643283608558504, 50.921977446325464 ] } },
+{ "type": "Feature", "properties": { "id": 9, "Gemeente": "Zulte", "type": "station", "deelgemeen": "Zulte", "Adres": "Posthoornstraat 41", "Omschrijv": "De stations van Zulte" }, "geometry": { "type": "Point", "coordinates": [ 3.497628037780361, 50.951823913949475 ] } },
+{ "type": "Feature", "properties": { "id": 7, "Gemeente": "Sint-Martens-Latem", "type": "station", "deelgemeen": "Deurle", "Adres": "Klapstraat (kruispunt met //Langs de Spoorweg)", "Omschrijv": "Het station van Deurle: van stopplaats tot volwaardig station" }, "geometry": { "type": "Point", "coordinates": [ 3.607574294937244, 50.989343902037731 ] } },
+{ "type": "Feature", "properties": { "id": 2, "Gemeente": "Kruisem", "type": "station", "deelgemeen": "Kruisem", "Adres": "Stationsstraat 3", "Omschrijv": "Het station van Zingem: een typische architectuur" }, "geometry": { "type": "Point", "coordinates": [ 3.646539673138637, 50.908018651138846 ] } },
+{ "type": "Feature", "properties": { "id": 1, "Gemeente": "De Pinte", "type": "station", "deelgemeen": "De Pinte", "Adres": "Stationsstraat", "Omschrijv": "De Pinte, waar bloemsierteelt groot werd door het spoor" }, "geometry": { "type": "Point", "coordinates": [ 3.649446778672389, 50.996330524122151 ] } }
+]
+}

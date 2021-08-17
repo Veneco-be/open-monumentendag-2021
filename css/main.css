@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+#map {
+	height: 100%;
+}
+
+#info {
+	position: absolute;
+    z-index: 1000;
+    padding: 0.8rem;
+    bottom: 10px;
+    left: 10px;
+	max-width: 15rem;
+}
+
+.leaflet-popup-content p {
+	margin: 0 !important;
+}
+
+.leaflet-control-layers-overlays label div {
+	position: relative;
+}
+
+.leaflet-control-layers-overlays input {
+	opacity: 0;
+}
+
+.leaflet-control-layers-overlays span {
+	padding-left: 0.5rem;
+}
+
+.leaflet-control-layers-overlays span::before {
+	content: '';
+	display: block;
+	width: 1em;
+	height: 1em;
+	border-radius: 2px;
+	background: #fff;
+	position: absolute;
+	z-index: 10;
+	top: 2px;
+	left: 2px;
+	border: 2px solid;
+}
+
+.leaflet-control-layers-overlays label:first-child span::before {
+	border: 2px solid red;
+}
+
+.leaflet-control-layers-overlays label:nth-child(2) span::before {
+	border: 2px solid #eca154;
+}
+
+.leaflet-control-layers-overlays
+	label:first-child
+	input:checked
+	+ span::before {
+	background: red url('../checkbox.svg');
+}
+
+.leaflet-control-layers-overlays
+	label:nth-child(2)
+	input:checked
+	+ span::before {
+	background: #eca154 url('../checkbox.svg');
+}
+
