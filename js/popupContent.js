@@ -9,7 +9,11 @@ function getPopupContent(feature, popTitle) {
             <p>Afstand: ${props.afstand} km</p>`;
 			break;
 		case ' ':
-			content2 = `<p>${props.Omschrijv}</p>`;
+			// update stopplaats info property
+			content2 = `
+				<p>${props.Omschrijv}</p>
+				<a href="${props.info}">Meer info over deze stopplaats</a>
+			`;
 			break;
 	}
 
