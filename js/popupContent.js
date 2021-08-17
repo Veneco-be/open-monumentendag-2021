@@ -12,7 +12,7 @@ function getPopupContent(feature, popTitle) {
 			// update stopplaats info property
 			content2 = `
 				<p>${props.Omschrijv}</p>
-				<a href="${props.info}">Meer info over deze stopplaats</a>
+				<a href="${props.website}">Meer info over deze stopplaats</a>
 			`;
 			break;
 	}
