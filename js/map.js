@@ -1,7 +1,7 @@
 (async () => {
 	const osmap = L.tileLayer(
 		'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',
-		{ 
+		{
 			attribution:'&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a>, &copy; <a href="https://openstreetmap.org/">OpenStreetMap</a> contributors',
 			maxZoom: 20
 		 }
@@ -9,7 +9,7 @@
 
 	const map = L.map('map', {
 		center: [51.0, 3.58],
-		zoom: 12.4,
+		zoom: 11.4,
 		layers: [osmap],
 	});
 
@@ -39,8 +39,8 @@
 				onEachFeature: onEachFeatureWrapper(file.popTitle),
 			};
 
-				L.geoJSON(await res.json(), options).addTo(map) 	
-			
+				L.geoJSON(await res.json(), options).addTo(map)
+
 		});
 	};
 	await getData();
