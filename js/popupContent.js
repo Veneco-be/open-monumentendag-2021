@@ -1,7 +1,6 @@
 function getPopupContent(feature, popTitle) {
 	const props = feature.properties;
 	let content = '';
-	let content2 = '';
 
 	switch (popTitle) {
 		case '':
@@ -9,13 +8,11 @@ function getPopupContent(feature, popTitle) {
             <p>Afstand: ${props.afstand} km</p>`;
 			break;
 		case ' ':
-			// update stopplaats info property
-			content2 = `
-				<p>${props.Omschrijv}</p>
-				<a href="${props.website}" target="_blank">Meer info over deze stopplaats</a>
+			content = `
+				<h3>${props.Omschrijv}</h3>
 			`;
 			break;
 	}
 
-	return `<h3>${popTitle}${content2}</h3>${content}`;
+	return content;
 }
