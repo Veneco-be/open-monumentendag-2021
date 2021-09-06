@@ -21,6 +21,8 @@
 	function onEachFeatureWrapper(popTitle) {
 		return function onEachFeature(feature, layer) {
 			layer.bindPopup(getPopupContent(feature, popTitle));
+			layer.addEventListener('mouseover', (e) => e.target.openPopup());
+			layer.addEventListener('mouseout', (e) => e.target.closePopup());
 		};
 	}
 
